@@ -1,0 +1,36 @@
+{
+  "name": "projeto15-fearlo-back",
+  "type": "module",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "coffee-script": "^1.0.1"
+  },
+  "scripts": {
+    "start": "node ./src/index.js",
+    "dev": "nodemon .src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blorena13/projeto15-fearlo-back.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blorena13/projeto15-fearlo-back/issues"
+  },
+  "homepage": "https://github.com/blorena13/projeto15-fearlo-back#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dcrypt": "^0.0.2",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "joi": "^17.9.2",
+    "mongodb": "^5.3.0",
+    "nodemon": "^2.0.22",
+    "uuid": "^9.0.0"
+  }
+}
