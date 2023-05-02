@@ -6,7 +6,7 @@ export async function payment(req, res) {
   const {name, token, id, text, quant, price, total, cep} = req.body
 
   try {
-    const session = await db.collection("sessions").findOne({token: token})
+    const session = await db.collection("userOn").findOne({token: token})
       const orderData = {
         name, 
         token,
